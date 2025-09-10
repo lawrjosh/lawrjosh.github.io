@@ -4,13 +4,13 @@
     "href": "index.html",
     "title": "Joshua Lawrence",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is my Quarto website for AD688 O1 Cloud Analytics for Business (Fall 25) Assignment 1\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nInteractive Table on Air Quality Dataset\nData Source - https://github.com/MainakRepositor/Datasets/blob/master/Air%20Quality/real_2016_air.csv\n\n\n\n\n    \n    \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n    Loading ITables v2.5.2 from the internet...\n    (need help?)"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\nQuarto site developed following instructions and guidance for AD688 Assignment 1."
   }
 ]
