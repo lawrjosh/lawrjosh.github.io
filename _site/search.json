@@ -4,20 +4,20 @@
     "href": "index.html",
     "title": "Joshua Lawrence",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is my Quarto website for AD688 O1 Cloud Analytics for Business (Fall 25) Assignment 1\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nInteractive Table\nData Source - https://github.com/MainakRepositor/Datasets/blob/master/Air%20Quality/real_2016_air.csv\n\n\n\n\n    \n    \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n    Loading ITables v2.5.2 from the internet...\n    (need help?)"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\nQuarto site developed following instructions and guidance for AD688 Assignment 1."
   },
   {
     "objectID": "Assignment 01/system_info.html",
     "href": "Assignment 01/system_info.html",
     "title": "Assignment 01",
     "section": "",
-    "text": "import platform import psutil\nprint(“Operating System:”, platform.system(), platform.release()) print(“Python Version:”, platform.python_version()) print(“Machine:”, platform.machine()) print(“Processor:”, platform.processor())\nmem = psutil.virtual_memory() print(“Total Memory (MB):”, round(mem.total / (10242), 2)) print(“Available Memory (MB):”, round(mem.available / (10242), 2))"
+    "text": "import platform\nimport psutil\n\nprint(\"Operating System:\", platform.system(), platform.release())\nprint(\"Python Version:\", platform.python_version())\nprint(\"Machine:\", platform.machine())\nprint(\"Processor:\", platform.processor())\n\nmem = psutil.virtual_memory()\nprint(\"Total Memory (MB):\", round(mem.total / (1024**2), 2))\nprint(\"Available Memory (MB):\", round(mem.available / (1024**2), 2))\n\nOperating System: Linux 6.14.0-1012-aws\nPython Version: 3.12.3\nMachine: x86_64\nProcessor: x86_64\nTotal Memory (MB): 7820.98\nAvailable Memory (MB): 4858.93"
   }
 ]

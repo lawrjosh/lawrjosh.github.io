@@ -3,3 +3,5 @@ title: "About"
 ---
 
 About this site
+
+Quarto site developed following instructions and guidance for AD688 Assignment 1. 

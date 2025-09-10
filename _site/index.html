@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -32,15 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-93b10530f83a0ed64c0288fd832e80ab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -80,8 +82,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Joshua Lawrence</span>
     </a>
@@ -111,8 +111,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#interactive-table" id="toc-interactive-table" class="nav-link active" data-scroll-target="#interactive-table">Interactive Table</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -136,10 +142,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
+<p>This is my Quarto website for AD688 O1 Cloud Analytics for Business (Fall 25) Assignment 1</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="interactive-table" class="level1">
+<h1>Interactive Table</h1>
+<p>Data Source - https://github.com/MainakRepositor/Datasets/blob/master/Air%20Quality/real_2016_air.csv</p>
+<div id="4f04b893" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<!--| quarto-html-table-processing: none -->
+<table id="itables_b7adac2b_9cca_45fb_800d_bd2f28036daa"><tbody><tr>
+    <td style="vertical-align:middle; text-align:left">
+    <a href="https://mwouts.github.io/itables/"><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="64" viewbox="0 0 500 400" style="font-family: 'Droid Sans', sans-serif;">
+    <g style="fill:#d9d7fc">
+        <path d="M100,400H500V357H100Z"></path>
+        <path d="M100,300H400V257H100Z"></path>
+        <path d="M0,200H400V157H0Z"></path>
+        <path d="M100,100H500V57H100Z"></path>
+        <path d="M100,350H500V307H100Z"></path>
+        <path d="M100,250H400V207H100Z"></path>
+        <path d="M0,150H400V107H0Z"></path>
+        <path d="M100,50H500V7H100Z"></path>
+    </g>
+    <g style="fill:#1a1366;stroke:#1a1366;">
+   <rect x="100" y="7" width="400" height="43">
+    <animate attributename="width" values="0;400;0" dur="5s" repeatcount="indefinite"></animate>
+      <animate attributename="x" values="100;100;500" dur="5s" repeatcount="indefinite"></animate>
+  </rect>
+        <rect x="0" y="107" width="400" height="43">
+    <animate attributename="width" values="0;400;0" dur="3.5s" repeatcount="indefinite"></animate>
+    <animate attributename="x" values="0;0;400" dur="3.5s" repeatcount="indefinite"></animate>
+  </rect>
+        <rect x="100" y="207" width="300" height="43">
+    <animate attributename="width" values="0;300;0" dur="3s" repeatcount="indefinite"></animate>
+    <animate attributename="x" values="100;100;400" dur="3s" repeatcount="indefinite"></animate>
+  </rect>
+        <rect x="100" y="307" width="400" height="43">
+    <animate attributename="width" values="0;400;0" dur="4s" repeatcount="indefinite"></animate>
+      <animate attributename="x" values="100;100;500" dur="4s" repeatcount="indefinite"></animate>
+  </rect>
+        <g style="fill:transparent;stroke-width:8; stroke-linejoin:round" rx="5">
+            <g transform="translate(45 50) rotate(-45)">
+                <circle r="33" cx="0" cy="0"></circle>
+                <rect x="-8" y="32" width="16" height="30"></rect>
+            </g>
+
+            <g transform="translate(450 152)">
+                <polyline points="-15,-20 -35,-20 -35,40 25,40 25,20"></polyline>
+                <rect x="-15" y="-40" width="60" height="60"></rect>
+            </g>
+
+            <g transform="translate(50 352)">
+                <polygon points="-35,-5 0,-40 35,-5"></polygon>
+                <polygon points="-35,10 0,45 35,10"></polygon>
+            </g>
+
+            <g transform="translate(75 250)">
+                <polyline points="-30,30 -60,0 -30,-30"></polyline>
+                <polyline points="0,30 -30,0 0,-30"></polyline>
+            </g>
+
+            <g transform="translate(425 250) rotate(180)">
+                <polyline points="-30,30 -60,0 -30,-30"></polyline>
+                <polyline points="0,30 -30,0 0,-30"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+    Loading ITables v2.5.2 from the internet...
+    (need <a href="https://mwouts.github.io/itables/troubleshooting.html">help</a>?)</td>
+    </tr></tbody></table>
+<link href="https://www.unpkg.com/dt_for_itables@2.4.0/dt_bundle.css" rel="stylesheet">
+<script type="module">
+    import { ITable, jQuery as $ } from 'https://www.unpkg.com/dt_for_itables@2.4.0/dt_bundle.js';
+
+    document.querySelectorAll("#itables_b7adac2b_9cca_45fb_800d_bd2f28036daa:not(.dataTable)").forEach(table => {
+        if (!(table instanceof HTMLTableElement))
+            return;
+
+        let dt_args = {"layout": {"topStart": "pageLength", "topEnd": "search", "bottomStart": "info", "bottomEnd": "paging"}, "text_in_header_can_be_selected": true, "classes": ["display", "nowrap"], "order": [], "style": {"table-layout": "auto", "width": "auto", "margin": "auto", "caption-side": "bottom"}, "table_html": "<table><thead>\n    <tr style=\"text-align: right;\">\n      \n      <th>T</th>\n      <th>TM</th>\n      <th>Tm</th>\n      <th>SLP</th>\n      <th>H</th>\n      <th>VV</th>\n      <th>V</th>\n      <th>VM</th>\n      <th>PM 2.5</th>\n    </tr>\n  </thead></table>", "data_json": "[[16.9, 25.1, 6.6, 1021.3, 65, 1.1, 2.0, 7.6, 284.795833], [15.5, 24.1, 7.7, 1021.0, 71, 1.1, 3.5, 11.1, 219.720833], [14.9, 22.8, 8.0, 1018.4, 73, 1.1, 5.9, 13.0, 182.1875], [18.3, 24.7, 11.5, 1018.1, 85, 0.5, 1.1, 7.6, 154.0375], [16.5, 24.7, 12.0, 1017.4, 82, 0.6, 8.0, 13.0, 223.208333], [16.6, 22.2, 10.2, 1015.4, 65, 1.8, 10.0, 20.6, 200.645833], [18.2, 25.1, 12.0, 1014.4, 77, 0.6, 5.0, 11.1, 285.225], [15.6, 23.2, 10.9, 1015.6, 82, 0.6, 4.3, 9.4, 236.825], [13.0, 19.0, 9.6, 1016.9, 85, 0.8, 10.7, 16.5, 276.908333], [12.3, 19.0, 8.9, 1015.8, 91, 0.5, 4.6, 9.4, 108.0], [11.9, 15.7, 7.5, 1018.9, 86, 0.8, 6.1, 11.1, 107.625], [12.0, 17.0, 6.7, 1019.8, 75, 1.3, 7.6, 13.0, 125.891667], [11.7, 18.0, 6.4, 1017.3, 76, 0.8, 4.4, 13.0, 181.0125], [14.6, 21.0, 6.8, 1015.6, 81, 0.6, 2.4, 7.6, 152.554167], [17.7, 24.0, 9.0, 1014.5, 69, 1.4, 4.4, 9.4, 152.320833], [17.4, 27.2, 12.2, 1016.4, 79, 1.1, 7.8, 18.3, 319.7375], [15.9, 22.4, 8.4, 1017.6, 66, 2.4, 7.2, 16.5, 332.708333], [15.2, 22.6, 6.6, 1018.2, 56, 1.9, 8.9, 22.2, 279.6], [12.7, 19.5, 8.0, 1017.6, 69, 1.3, 8.3, 18.3, 179.116667], [15.6, 24.6, 10.7, 1015.7, 81, 1.3, 2.8, 9.4, 54.791667], [17.1, 23.2, 9.0, 1017.1, 69, 1.8, 5.9, 11.1, 93.375], [17.6, 24.0, 10.1, 1014.8, 67, 1.4, 5.9, 14.8, 103.0], [17.2, 26.0, 11.5, 1014.7, 65, 2.3, 5.7, 14.8, 132.208333], [17.7, 24.4, 9.7, 1017.0, 64, 2.1, 8.0, 18.3, 127.708333], [17.4, 24.4, 10.1, 1018.9, 61, 2.3, 6.1, 11.1, 109.333333], [23.1, 30.0, 15.6, 1014.9, 71, 1.4, 4.1, 9.4, 56.458333], [23.7, 29.8, 18.7, 1014.0, 75, 1.4, 11.1, 18.3, 135.833333], [20.9, 27.8, 15.8, 1014.4, 62, 2.6, 17.2, 27.8, 122.5], [22.6, 30.3, 11.5, 1015.4, 57, 2.4, 5.4, 11.1, 69.666667], [22.7, 30.4, 12.8, 1017.7, 56, 2.6, 2.4, 7.6, 79.833333], [22.7, 30.6, 13.0, 1018.4, 58, 2.4, 3.3, 7.6, 62.708333], [25.0, 31.0, 15.0, 1015.7, 59, 1.9, 1.7, 5.4, 1.916667], [24.9, 32.4, 15.2, 1015.0, 57, 1.9, 1.7, 9.4, 1.833333], [26.8, 33.4, 15.7, 1014.5, 52, 2.4, 4.6, 9.4, 1.791667], [23.7, 29.1, 15.8, 1011.9, 67, 2.1, 5.2, 11.1, 117.583333], [23.4, 29.1, 17.0, 1011.4, 63, 2.1, 6.7, 16.5, 122.708333], [24.3, 29.0, 15.6, 1011.7, 56, 1.9, 10.0, 18.3, 76.541667], [24.3, 31.0, 16.8, 1010.8, 66, 3.4, 6.9, 14.8, 59.208333], [22.4, 29.5, 17.1, 1014.1, 68, 3.4, 6.3, 16.5, 77.208333], [24.1, 29.2, 14.5, 1014.4, 59, 2.4, 8.5, 18.3, 87.833333], [26.8, 33.0, 19.0, 1008.8, 61, 2.3, 3.5, 11.1, 123.708333], [27.1, 33.0, 19.0, 1009.9, 61, 2.6, 2.8, 13.0, 64.791667], [26.5, 32.8, 19.5, 1010.5, 45, 2.9, 12.2, 25.9, 62.875], [29.8, 36.2, 18.2, 1012.7, 52, 2.4, 3.3, 7.6, 52.041667], [24.7, 36.6, 19.7, 1012.8, 66, 2.4, 9.4, 14.8, 128.333333], [26.2, 32.0, 19.5, 1012.5, 56, 3.1, 9.1, 14.8, 87.583333], [29.9, 37.0, 19.5, 1008.3, 39, 2.7, 4.4, 9.4, 23.208333], [30.4, 37.5, 21.6, 1006.3, 41, 2.6, 12.0, 27.8, 15.166667], [32.3, 39.0, 21.5, 1007.3, 39, 3.4, 5.4, 13.0, 21.25], [33.4, 39.1, 24.8, 1008.0, 47, 2.1, 2.6, 7.6, 25.75], [29.5, 36.9, 21.5, 1007.2, 41, 2.3, 11.3, 16.5, 105.333333], [29.3, 36.0, 18.8, 1008.8, 37, 3.2, 4.8, 11.1, 117.75], [30.9, 37.0, 19.0, 1008.9, 33, 2.6, 6.9, 14.8, 20.791667], [31.6, 38.0, 23.2, 1002.6, 30, 3.1, 18.7, 35.2, 46.916667], [33.1, 39.0, 24.0, 1003.0, 26, 2.6, 10.4, 24.1, 104.625], [33.6, 40.0, 23.0, 1003.8, 27, 2.4, 9.8, 18.3, 109.625], [34.0, 40.6, 26.3, 1005.5, 29, 2.6, 13.9, 22.2, 0.0], [33.9, 39.6, 25.8, 1002.7, 28, 2.7, 15.7, 29.4, 30.875], [33.3, 39.4, 24.8, 1000.7, 28, 3.1, 8.3, 18.3, 75.583333], [33.4, 40.0, 21.2, 1006.3, 27, 2.6, 3.7, 14.8, 0.0], [33.2, 40.3, 22.2, 1005.1, 29, 2.3, 5.0, 14.8, 0.0], [34.0, 40.7, 22.2, 1004.6, 24, 2.4, 11.9, 22.2, 0.0], [34.7, 41.5, 22.0, 1001.7, 24, 2.3, 8.5, 16.5, 142.5], [38.0, 44.0, 23.8, 1001.1, 20, 2.6, 9.6, 29.4, 133.375], [35.4, 44.0, 28.0, 1003.2, 35, 2.7, 6.5, 18.3, 102.416667], [33.2, 38.0, 25.0, 1004.6, 41, 2.7, 4.6, 9.4, 158.291667], [35.1, 39.2, 25.3, 1005.1, 40, 2.4, 7.2, 11.1, 149.583333], [33.8, 39.8, 27.6, 1005.5, 44, 2.4, 9.8, 16.5, 107.291667], [37.1, 42.0, 27.5, 1000.7, 30, 2.9, 8.3, 18.3, 106.5], [36.5, 43.0, 27.0, 1001.8, 35, 2.6, 4.1, 22.2, 128.125], [37.3, 42.4, 27.4, 1002.4, 32, 2.6, 4.8, 14.8, 108.0], [37.3, 43.7, 28.6, 997.4, 44, 2.6, 9.4, 22.2, 98.416667], [37.3, 42.8, 31.2, 996.2, 49, 2.6, 8.3, 14.8, 94.375], [36.2, 41.5, 30.7, 995.3, 50, 2.9, 10.9, 18.3, 118.5], [32.9, 39.0, 27.4, 996.6, 50, 2.4, 9.4, 27.8, 110.416667], [34.6, 39.0, 26.0, 998.4, 49, 2.4, 6.7, 16.5, 95.833333], [37.4, 41.0, 30.6, 998.8, 31, 1.9, 14.1, 27.8, 93.5], [32.7, 37.5, 24.7, 1002.3, 55, 2.4, 7.4, 18.3, 38.666667], [36.0, 40.0, 26.6, 1001.7, 46, 3.1, 9.1, 22.2, 45.375], [37.7, 42.0, 30.7, 1000.9, 37, 2.6, 11.9, 22.2, 65.166667], [37.6, 43.0, 28.7, 1001.2, 42, 2.4, 2.8, 11.1, 67.083333], [34.6, 40.3, 28.7, 1001.1, 51, 2.7, 10.2, 25.9, 77.666667], [35.9, 41.0, 28.6, 998.6, 50, 2.6, 8.5, 18.3, 70.25], [35.7, 41.2, 30.0, 997.6, 48, 2.3, 9.3, 27.8, 75.125], [36.0, 41.0, 27.6, 997.7, 46, 2.4, 12.8, 25.9, 77.0], [32.6, 40.7, 26.0, 996.9, 59, 2.6, 11.9, 29.4, 32.958333], [34.7, 38.0, 30.5, 995.4, 55, 2.4, 10.4, 18.3, 40.833333], [35.6, 40.0, 30.0, 1000.7, 57, 3.1, 9.4, 25.9, 90.708333], [31.1, 40.1, 26.0, 999.8, 74, 2.4, 7.6, 14.8, 97.291667], [32.9, 38.6, 27.0, 999.7, 64, 2.4, 8.9, 16.5, 79.833333], [35.5, 39.9, 31.2, 999.7, 60, 2.4, 9.8, 18.3, 40.375], [34.9, 39.6, 29.6, 999.6, 61, 2.4, 7.8, 14.8, 49.416667], [34.4, 39.4, 26.0, 998.3, 63, 2.3, 8.0, 14.8, 43.666667], [32.2, 39.8, 25.4, 995.4, 73, 2.3, 8.3, 14.8, 0.0], [28.4, 36.6, 24.4, 998.1, 82, 2.4, 5.2, 9.4, 29.666667], [29.6, 32.0, 25.7, 997.6, 80, 2.3, 2.0, 7.6, 47.75], [33.6, 36.7, 28.8, 996.7, 66, 5.8, 5.9, 11.1, 43.666667], [30.7, 36.9, 28.8, 996.8, 78, 2.3, 5.4, 27.8, 29.833333], [33.3, 37.0, 27.8, 996.2, 68, 2.6, 6.7, 11.1, 29.666667], [31.1, 34.2, 27.8, 997.8, 78, 2.6, 6.9, 24.1, 37.625], [30.4, 35.4, 26.7, 997.8, 82, 2.1, 5.2, 14.8, 41.458333], [31.0, 35.2, 26.0, 997.9, 80, 2.4, 7.2, 18.3, 53.125], [32.4, 35.2, 26.2, 999.0, 72, 2.9, 13.5, 25.9, 36.0], [34.1, 37.0, 28.5, 998.5, 63, 3.2, 13.0, 22.2, 70.583333], [34.1, 37.2, 29.0, 998.4, 61, 2.6, 11.5, 22.2, 52.458333], [31.9, 35.0, 28.3, 1001.3, 72, 2.1, 2.8, 9.4, 38.25], [30.3, 35.0, 27.6, 1002.6, 83, 2.3, 6.5, 16.5, 26.583333], [28.3, 35.8, 26.8, 1003.9, 89, 1.6, 4.3, 11.1, 57.583333], [29.2, 31.0, 26.0, 1000.0, 85, 1.8, 4.6, 13.0, 41.375], [29.1, 32.6, 26.4, 998.6, 85, 1.8, 5.9, 13.0, 25.541667], [30.9, 35.0, 26.0, 997.4, 73, 2.6, 6.5, 11.1, 28.375], [32.6, 36.0, 26.2, 997.8, 66, 3.4, 5.6, 9.4, 40.333333], [33.3, 36.0, 26.4, 999.7, 67, 3.2, 7.8, 18.3, 35.375], [33.4, 36.5, 28.6, 999.9, 66, 2.9, 9.8, 16.5, 31.916667], [31.2, 36.7, 28.0, 997.8, 75, 2.7, 9.1, 14.8, 36.791667], [29.9, 34.0, 25.5, 1000.2, 80, 1.4, 3.3, 11.1, 26.833333], [29.0, 33.7, 26.0, 999.1, 85, 2.1, 6.5, 22.2, 21.125], [31.3, 34.5, 27.0, 997.6, 71, 3.2, 12.2, 22.2, 18.0], [31.7, 34.0, 26.4, 999.0, 71, 2.6, 2.0, 11.1, 43.583333], [32.6, 36.0, 27.6, 999.6, 70, 2.7, 10.6, 20.6, 46.041667], [31.2, 35.9, 26.1, 1000.4, 71, 3.2, 8.7, 18.3, 28.75], [31.0, 35.0, 26.8, 1004.1, 76, 2.6, 6.1, 14.8, 64.916667], [30.8, 35.2, 26.8, 1005.0, 76, 2.7, 3.7, 18.3, 30.666667], [27.3, 33.3, 24.0, 1002.4, 89, 2.1, 7.8, 27.8, 33.166667], [27.8, 31.0, 25.2, 1001.3, 88, 2.4, 4.6, 7.6, 30.625], [30.7, 34.0, 25.5, 1000.1, 73, 2.6, 13.7, 22.2, 30.333333], [30.7, 34.0, 25.0, 1000.5, 65, 3.4, 12.0, 27.8, 31.75], [31.1, 35.0, 25.0, 1003.1, 64, 3.2, 10.4, 18.3, 0.0], [31.3, 35.0, 26.0, 1004.6, 63, 3.2, 11.5, 18.3, 0.0], [31.4, 36.0, 26.7, 1006.7, 65, 3.1, 8.3, 13.0, 83.458333], [30.4, 35.6, 25.7, 1006.5, 72, 2.9, 4.3, 14.8, 71.666667], [31.7, 37.1, 26.0, 1003.2, 63, 2.9, 1.7, 5.4, 62.375], [32.5, 37.2, 25.3, 1003.0, 59, 3.1, 1.7, 7.6, 24.875], [32.6, 37.4, 27.0, 1005.8, 63, 2.6, 6.3, 13.0, 37.333333], [30.7, 34.8, 25.6, 1004.5, 66, 2.6, 3.3, 11.1, 41.5], [31.4, 35.2, 26.0, 1005.8, 62, 3.1, 2.0, 7.6, 48.916667], [31.9, 36.0, 26.5, 1007.2, 66, 2.3, 2.4, 7.6, 26.666667], [32.4, 36.4, 27.5, 1007.8, 65, 3.1, 3.5, 11.1, 29.0], [30.3, 35.0, 24.7, 1007.3, 62, 2.3, 7.6, 18.3, 60.541667], [29.9, 35.0, 23.0, 1006.3, 60, 2.6, 6.7, 24.1, 41.583333], [30.0, 36.0, 22.5, 1004.9, 63, 2.6, 3.0, 7.6, 50.916667], [28.6, 35.0, 19.8, 1008.2, 49, 3.7, 11.5, 22.2, 82.833333], [28.3, 35.2, 19.0, 1009.4, 53, 3.4, 9.1, 35.9, 95.25], [26.8, 35.2, 17.5, 1010.4, 57, 2.6, 5.7, 13.0, 115.833333], [27.6, 35.0, 17.6, 1007.6, 53, 3.1, 5.9, 13.0, 136.708333], [27.7, 35.0, 18.6, 1006.9, 52, 3.1, 7.8, 28.7, 160.666667], [27.3, 35.0, 19.0, 1007.8, 55, 3.2, 7.2, 27.8, 173.583333], [27.2, 34.5, 19.5, 1009.0, 58, 3.1, 11.1, 25.9, 261.666667], [26.4, 33.0, 18.4, 1012.4, 60, 2.6, 4.6, 14.8, 272.416667], [25.4, 33.4, 16.5, 1014.3, 62, 1.6, 5.0, 14.8, 226.291667], [23.7, 31.7, 15.5, 1017.7, 69, 1.0, 1.3, 5.4, 99.708333], [23.4, 31.1, 14.2, 1016.0, 60, 1.1, 3.0, 7.6, 217.375], [22.6, 30.6, 15.8, 1015.4, 69, 0.5, 1.1, 5.4, 309.375], [23.9, 32.0, 14.5, 1015.6, 63, 1.0, 2.0, 5.4, 166.916667], [23.2, 30.2, 14.0, 1012.6, 55, 1.1, 7.4, 18.3, 278.0], [22.5, 29.5, 15.6, 1013.3, 56, 1.1, 11.7, 22.2, 192.333333], [21.7, 30.0, 12.2, 1014.5, 52, 1.1, 6.3, 16.5, 235.333333], [22.2, 30.2, 13.6, 1015.6, 63, 1.6, 1.5, 3.5, 221.541667], [20.8, 29.3, 12.1, 1016.7, 58, 1.8, 3.5, 9.4, 210.541667], [20.7, 28.8, 10.6, 1017.8, 56, 1.8, 6.1, 16.5, 251.208333], [20.8, 29.0, 10.5, 1013.9, 61, 1.8, 2.6, 7.6, 194.708333], [22.0, 31.0, 10.7, 1013.2, 56, 1.8, 2.4, 14.8, 250.875], [21.4, 30.6, 10.8, 1011.9, 54, 2.6, 7.8, 18.3, 274.875], [24.2, 31.0, 16.5, 1013.0, 36, 2.9, 13.9, 22.2, 160.0], [22.7, 30.8, 13.6, 1012.0, 38, 3.4, 11.9, 20.6, 217.916667], [21.4, 29.6, 12.7, 1013.7, 40, 2.6, 8.0, 20.6, 184.208333], [19.2, 25.9, 11.9, 1017.0, 84, 0.8, 2.6, 9.4, 176.375], [18.9, 25.8, 11.5, 1017.9, 77, 0.6, 5.0, 13.0, 185.958333], [19.3, 27.0, 11.7, 1019.6, 57, 1.8, 5.2, 11.1, 195.375], [17.8, 24.8, 11.2, 1017.0, 74, 0.6, 0.7, 7.6, 365.291667], [15.8, 24.3, 8.7, 1015.8, 77, 0.8, 1.7, 7.6, 312.208333], [18.2, 27.0, 7.7, 1013.7, 72, 0.6, 1.1, 7.6, 237.625], [19.0, 27.1, 10.5, 1015.1, 61, 1.6, 3.3, 9.4, 202.875], [18.0, 26.6, 10.5, 1017.1, 61, 1.9, 8.0, 14.8, 260.166667], [17.2, 24.2, 10.0, 1017.2, 58, 1.6, 9.3, 22.2, 403.958333], [16.3, 23.0, 6.6, 1016.9, 61, 1.0, 9.4, 20.6, 284.166667], [18.1, 24.0, 11.2, 1015.4, 56, 1.8, 15.9, 25.9, 288.416667], [17.8, 25.0, 10.7, 1015.8, 54, 2.3, 9.4, 22.2, 256.833333], [13.9, 24.5, 11.4, 1015.0, 95, 0.6, 8.7, 14.8, 169.0], [16.3, 23.0, 9.8, 1016.9, 78, 1.1, 7.4, 16.5, 186.041667], [16.3, 23.4, 9.0, 1017.3, 68, 1.3, 7.8, 18.3, 185.583333]]"};
+        new ITable(table, dt_args);
+    });
+</script>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -193,14 +282,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
